@@ -9,9 +9,9 @@ from snowflake.SN_PRECAUTION
 )
 
 select 
-    pu.DISEASE,
-    pu.PRECAUTION_1,
-    pu.PRECAUTION_2,
-    pu.PRECAUTION_3,
-    pu.PRECAUTION_4
-from src_precaution as pu    
+    p.DISEASE,
+    p.PRECAUTION_1,
+    p.PRECAUTION_2,
+    p.PRECAUTION_3,
+    p.PRECAUTION_4
+from src_precaution as p   
